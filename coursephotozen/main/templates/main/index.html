@@ -6,13 +6,6 @@
     <div class="features">
         <h2>{{ title }}</h2> 
         <h1>Добро пожаловать в мир фотографии!</h1>
-        <button class="btn btn-warning">ЗАПИСАТЬСЯ НА КУРС</button>
-
-        {% for el in values %}
-            <p>{{ el }}</p>
-        {% endfor %}
-
-        {{ obj.age }}
+        <button onclick="window.location.href = '/connect';" class="btn btn-warning" target="_blank">ЗАПИСАТЬСЯ НА КУРС</button>
     </div>
-    {% include 'main/test.html' %}
 {% endblock %}
