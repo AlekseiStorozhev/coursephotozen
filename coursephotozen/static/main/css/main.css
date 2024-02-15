@@ -1,0 +1,53 @@
+body {
+    background: white;
+}
+
+aside {
+    float: right;
+    background: yellow;
+    width: 30%;
+    padding: 3%;
+    height: 100vh;
+    color: black;
+    border-left: 5px solid #4d4d4d;
+}
+
+aside img {
+    width: 60px;
+    float: left;
+}
+
+aside .logo {
+    font-size: 40px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+aside ul {list-style: none}
+aside ul li {
+    color: red;
+    font-weight: bold;
+    display: block;
+    margin-top: 5px;
+    text-decoration: none;
+    transition: transform .6s ease;
+}
+
+aside ul li:hover, aside ul a:hover {
+    color: green;
+    text-decoration: none;
+    transform: scale(1.05);
+}
+
+aside .devise {
+    display: block;
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+main .features {
+    color: black;
+    margin-top: 10px;
+    text-align: center;
+    width: 75%;
+}
